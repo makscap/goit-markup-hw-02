@@ -1,0 +1,66 @@
+:root {
+  --text-white: #ffffff;
+  --text-blue: #2196f3;
+  --text-black: #212121;
+  --text-grey: #757575;
+  --text-grey-opac: rgba(255, 255, 255, 0.6);
+  --text-copyright: rgba(255, 255, 255, 0.4);
+
+}
+
+body {
+  background-color: #557a6c;
+  color: var(--text-grey);
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--text-black);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--text-blue);
+}
+.nav-contact {
+  color: var(--text-grey);
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--text-blue);
+}
+/* Main */
+.hero-title {
+  color: var(--text-white);
+}
+.button {
+  color: var(--text-white);
+  background-color: var(--text-blue);
+}
+
+/* Section Company */
+.section-title {
+  display: none;
+}
+
+.section-list {
+  color: var(--text-black);
+}
+
+.img-uslugi:hover,
+.img-uslugi:focus {
+  background-color: var(--text-blue);
+}
+
+.foot {
+  color: var(--text-grey-opac);
+}
+
+.copyright {
+  color: var(--text-copyright;
+}
