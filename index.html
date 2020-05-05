@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -11,62 +12,90 @@
 
     <header>
       <nav>
-        <a href=""><img src="./images/logo.svg" alt="Логотип" /></a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="" class="logo"
+          ><img src="./images/logo.svg" alt="Логотип"
+        /></a>
+        <ul class="site-nav list">
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
 
         <a href=""><img src="./images/list.svg" alt="Письмо" /></a>
 
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="mailto:info@devstudio.com" class="nav-contact"
+          >info@devstudio.com</a
+        >
 
         <a href=""><img src="./images/phone.svg" alt="Телефон" /></a>
 
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
       </nav>
     </header>
 
     <!-- Блок эффективные решения -->
     <main>
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button">Заказать услугу</a>
       </section>
 
       <!-- Выбор компании -->
 
-      <section>
-        <h2>Выбор компании</h2>
+      <section class="section">
+        <h2 class="section-title">Выбор компании</h2>
         <ul>
           <li>
-            <img src="./images/sputnik.svg" alt="Внимание к деталям" />
-            <h3>Внимание к деталям</h3>
+            <a href=""
+              ><img
+                src="./images/sputnik.svg"
+                alt="Внимание к деталям"
+                class="img-uslugi"
+              />
+            </a>
+            <h3 class="section-list">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <img src="./images/clock.svg" alt="Пунктуальность" />
-            <h3>Пунктуальность</h3>
+            <a href="">
+              <img
+                src="./images/clock.svg"
+                alt="Пунктуальность"
+                class="img-uslugi"
+              />
+            </a>
+            <h3 class="section-list">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <img src="./images/comp.svg" alt="Планирование" />
-            <h3>Планирование</h3>
+            <a href="">
+              <img
+                src="./images/comp.svg"
+                alt="Планирование"
+                class="img-uslugi"
+              />
+            </a>
+            <h3 class="section-list">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <img src="./images/cosmo.svg" alt="Современные технологии" />
-            <h3>Современные технологии</h3>
+            <a href="">
+              <img
+                src="./images/cosmo.svg"
+                alt="Современные технологии"
+                class="img-uslugi"
+              />
+            </a>
+            <h3 class="section-list">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -77,7 +106,7 @@
 
       <!-- Чем мы занимаемся -->
 
-      <section>
+      <section class="section-list">
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
@@ -98,43 +127,87 @@
       <!-- Наша команда -->
 
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="section-list">Наша команда</h2>
         <ul>
           <li>
             <img src="./images/photo1.jpg" alt="John Smith" />
-            <h3>John Smith</h3>
+            <h3 class="section-list">John Smith</h3>
             <p>Product Designer</p>
-            <a href=""><img src="./images/insta.svg" alt="Инстаграмм" /></a>
-            <a href=""><img src="./images/fb.svg" alt="Фейсбук" /></a>
-            <a href=""><img src="./images/tw.svg" alt="Твиттер" /></a>
-            <a href=""><img src="./images/in.svg" alt="Линкедин" /></a>
+            <a href=""
+              ><img
+                src="./images/insta.svg"
+                alt="Инстаграмм"
+                class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/fb.svg" alt="Фейсбук" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/tw.svg" alt="Твиттер" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/in.svg" alt="Линкедин" class="img-uslugi"
+            /></a>
           </li>
           <li>
             <img src="./images/photo2.jpg" alt="Marta Stewart" />
-            <h3>Marta Stewart</h3>
+            <h3 class="section-list">Marta Stewart</h3>
             <p>Frontend Developer</p>
-            <a href=""><img src="./images/insta.svg" alt="Инстаграмм" /></a>
-            <a href=""><img src="./images/fb.svg" alt="Фейсбук" /></a>
-            <a href=""><img src="./images/tw.svg" alt="Твиттер" /></a>
-            <a href=""><img src="./images/in.svg" alt="Линкедин" /></a>
+            <a href=""
+              ><img
+                src="./images/insta.svg"
+                alt="Инстаграмм"
+                class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/fb.svg" alt="Фейсбук" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/tw.svg" alt="Твиттер" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/in.svg" alt="Линкедин" class="img-uslugi"
+            /></a>
           </li>
           <li>
             <img src="./images/photo3.jpg" alt="Robert Jakis" />
-            <h3>Robert Jakis</h3>
+            <h3 class="section-list">Robert Jakis</h3>
             <p>Marketing</p>
-            <a href=""><img src="./images/insta.svg" alt="Инстаграмм" /></a>
-            <a href=""><img src="./images/fb.svg" alt="Фейсбук" /></a>
-            <a href=""><img src="./images/tw.svg" alt="Твиттер" /></a>
-            <a href=""><img src="./images/in.svg" alt="Линкедин" /></a>
+            <a href=""
+              ><img
+                src="./images/insta.svg"
+                alt="Инстаграмм"
+                class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/fb.svg" alt="Фейсбук" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/tw.svg" alt="Твиттер" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/in.svg" alt="Линкедин" class="img-uslugi"
+            /></a>
           </li>
           <li>
             <img src="./images/photo4.jpg" alt="Martin Doe" />
-            <h3>Martin Doe</h3>
+            <h3 class="section-list">Martin Doe</h3>
             <p>UI Designer</p>
-            <a href=""><img src="./images/insta.svg" alt="Инстаграмм" /></a>
-            <a href=""><img src="./images/fb.svg" alt="Фейсбук" /></a>
-            <a href=""><img src="./images/tw.svg" alt="Твиттер" /></a>
-            <a href=""><img src="./images/in.svg" alt="Линкедин" /></a>
+            <a href=""
+              ><img
+                src="./images/insta.svg"
+                alt="Инстаграмм"
+                class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/fb.svg" alt="Фейсбук" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/tw.svg" alt="Твиттер" class="img-uslugi"
+            /></a>
+            <a href=""
+              ><img src="./images/in.svg" alt="Линкедин" class="img-uslugi"
+            /></a>
           </li>
         </ul>
       </section>
@@ -170,23 +243,30 @@
 
     <footer>
       <section>
-        <h2>Футер</h2>
+        <h2 class="section-title">Футер</h2>
         <a href=""><img src="./images/logo.svg" alt="Логотип" /></a>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <p class="hero-title">г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="mailto:info@devstudio.com" class="foot">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="foot">+38 096 111 11 11</a>
 
-        <h3>присоединяйтесь</h3>
-        <a href=""><img src="./images/insta.svg" alt="Инстаграмм" /></a>
-        <a href=""><img src="./images/fb.svg" alt="Фейсбук" /></a>
-        <a href=""><img src="./images/tw-white.svg" alt="Твиттер" /></a>
-        <a href=""><img src="./images/in.svg" alt="Линкедин" /></a>
-
-        <h3>подписаться на рассылку</h3>
+        <h3 class="hero-title">присоединяйтесь</h3>
+        <a href=""
+          ><img src="./images/insta.svg" alt="Инстаграмм" class="img-uslugi"
+        /></a>
+        <a href=""
+          ><img src="./images/fb.svg" alt="Фейсбук" class="img-uslugi"
+        /></a>
+        <a href=""
+          ><img src="./images/tw.svg" alt="Твиттер" class="img-uslugi"
+        /></a>
+        <a href=""
+          ><img src="./images/in.svg" alt="Линкедин" class="img-uslugi"
+        /></a>
+        <h3 class="hero-title">подписаться на рассылку</h3>
         <input type="text" placeholder="E-mail" />
         <button>Подписаться</button>
 
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="copyright">2020 | Developed by GoIT Students</p>
       </section>
     </footer>
   </body>
