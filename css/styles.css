@@ -23,7 +23,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ body {
   color: var(--text-black);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -58,7 +58,7 @@ body {
   color: var(--text-grey);
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -79,7 +79,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-transform: uppercase;
 }
 .button {
@@ -103,7 +102,7 @@ body {
   color: var(--text-black);
   font-weight: bold;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .section-p {
@@ -151,6 +150,13 @@ body {
 }
 
 /* Футер */
+.foot-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
+}
 .foot-city {
   color: var(--text-white);
   font-size: 14px;
