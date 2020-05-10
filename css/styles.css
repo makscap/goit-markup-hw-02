@@ -175,18 +175,52 @@ body {
 }
 
 .foot-title {
+  color: var(--text-black);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.6;
+}
+/* 
+.foot-title {
   color: var(--text-white);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+} */
+
+.button-reg {
+  color: var(--text-white);
+  background-color: var(--text-blue);
+}
+.button-login {
+  color: var(--text-blue);
+  background-color: var(--text-white);
+}
+
+.foot-auth .link {
+  color: var(--text-grey);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.foot-auth .link:hover,
+.foot-auth .link:focus {
+  color: var(--text-blue);
 }
 
 .copyright {
   color: var(--text-copyright);
   font-size: 12px;
-  line-height: 2;
-  text-align: center;
+}
+
+.social > .label {
+  color: var(--text-copyright);
+  font-size: 15px;
+  line-height: 1.6;
 }
 
 .carusel-p {
