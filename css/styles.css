@@ -31,7 +31,7 @@ body {
   color: var(--text-blue);
 }
 .logo-studio {
-  color: var(--text-black);
+  color: var(--text-white);
 }
 
 /* Site nav */
@@ -166,6 +166,12 @@ body {
   color: var(--text-grey-opac);
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
+}
+
+.foot-contact:hover,
+.foot-contact:focus {
+  color: var(--text-blue);
 }
 
 .foot-title {
